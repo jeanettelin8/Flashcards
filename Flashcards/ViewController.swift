@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBOutlet weak var questionLabel: UILabel!
+    
+    @IBOutlet weak var answerLabel: UILabel!
+    @IBAction func didTapOnFlashcard(_ sender: Any) {
+        questionLabel.isHidden = true
+        
+    }
+    
 }
 
